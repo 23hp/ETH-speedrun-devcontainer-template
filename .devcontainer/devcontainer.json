@@ -1,0 +1,20 @@
+{
+    "name": "Ethereum Speedrun Dev",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "NomicFoundation.hardhat-solidity",
+                "juanblanco.solidity",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    },
+    "forwardPorts": [
+        3000
+    ]
+}
