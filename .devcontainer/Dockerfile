@@ -10,6 +10,9 @@ USER coder
 WORKDIR /workspace
 
 ENV PATH="/home/coder/.foundry/bin:$PATH"
+RUN echo 'export PATH="/home/coder/.foundry/bin:$PATH"' >> /home/coder/.bashrc
 
 RUN curl -L https://getfoundry.sh/install | bash && foundryup
 
+RUN git config --global user.name "23hp" && \
+    git config --global user.email "your.email@example.com"
