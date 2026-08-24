@@ -17,5 +17,7 @@ USER coder
 
 WORKDIR /workspace
 
+ENV PATH="/home/coder/.foundry/bin:${PATH}"
+
 RUN curl -L https://getfoundry.sh/install | bash && foundryup
 
