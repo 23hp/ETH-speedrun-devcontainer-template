@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm
+FROM mcr.microsoft.com/devcontainers/javascript-node:24-bookworm
 
 RUN useradd -m -s /bin/bash -G sudo coder
 
