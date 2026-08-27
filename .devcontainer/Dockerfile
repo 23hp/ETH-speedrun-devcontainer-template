@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/javascript-node:24-bookworm
 
+USER node
+
 ENV PATH="/home/node/.foundry/bin:$PATH"
 RUN echo 'export PATH="/home/node/.foundry/bin:$PATH"' >> /home/node/.bashrc
 
