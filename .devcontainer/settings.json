@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorBlinking": "solid", 
+  "editor.cursorWidth": 3,
+  "editor.smoothScrolling": false,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+}
