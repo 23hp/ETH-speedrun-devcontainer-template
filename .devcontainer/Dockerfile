@@ -7,7 +7,7 @@ RUN echo "PS1='🐳 \[\033[1;34m\]\W\[\033[0;35m\] \[\033[1;36m\]# \[\033[0m\]'"
 
 USER coder
 
-WORKDIR /workspace
+WORKDIR /home/coder
 
 ENV PATH="/home/coder/.foundry/bin:$PATH"
 RUN echo 'export PATH="/home/coder/.foundry/bin:$PATH"' >> /home/coder/.bashrc
