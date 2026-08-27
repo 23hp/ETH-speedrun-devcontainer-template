@@ -10,5 +10,5 @@ RUN curl -L https://getfoundry.sh/install | bash && foundryup
 RUN git config --global user.name "23hp" && \
     git config --global user.email "your.email@example.com"
 
-COPY extensions.json /home/node/.local/share/code-server/extensions/extensions.json
-COPY settings.json /home/node/.local/share/code-server/User/settings.json
+COPY ./extensions.json /home/node/.local/share/code-server/extensions/extensions.json
+COPY ./settings.json /home/node/.local/share/code-server/User/settings.json
