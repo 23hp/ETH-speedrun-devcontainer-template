@@ -1,5 +1,7 @@
-[
-  "JuanBlanco.solidity",
-  "runtimeverification.simbolik",
-  "esbenp.prettier-vscode"
-]
+{
+  "recommendations": [
+    "JuanBlanco.solidity",
+    "runtimeverification.simbolik",
+    "esbenp.prettier-vscode"
+  ]
+}
